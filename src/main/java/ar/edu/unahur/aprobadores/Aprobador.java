@@ -10,8 +10,12 @@ public abstract class Aprobador extends Empleado {
     super( cargo);
   }
 
-  public abstract void setSiguiente(Aprobador siguiente);
-  public abstract Aprobador getSiguiente();
+  public  void setSiguiente(Aprobador siguiente) {
+    this.siguiente = siguiente;
+  }
+  public Aprobador getSiguiente() {
+    return siguiente;
+  };
   public abstract boolean puedeAprobar(int monto);
 
   public void solicitudPrestamo(int monto) {

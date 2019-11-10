@@ -6,15 +6,6 @@ public class Gerente extends Aprobador {
         super(cargo);
     }
 
-    @Override
-    public void setSiguiente(Aprobador siguiente) {
-        this.siguiente = siguiente;
-    }
-
-    @Override
-    public Aprobador getSiguiente() {
-        return this.siguiente;
-    }
 
     @Override
     public boolean puedeAprobar(int monto) {

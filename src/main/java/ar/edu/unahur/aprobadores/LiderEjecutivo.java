@@ -7,15 +7,6 @@ public class LiderEjecutivo extends Aprobador {
         super(cargo);
     }
 
-    @Override
-    public void setSiguiente(Aprobador siguiente) {
-        this.siguiente = siguiente;
-    }
-
-    @Override
-    public Aprobador getSiguiente() {
-        return this.siguiente;
-    }
 
 
 

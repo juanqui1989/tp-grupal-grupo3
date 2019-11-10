@@ -1,4 +1,4 @@
-package autos;
+package ar.edu.unahur.autos;
 
 public abstract class Auto {
     private String color;

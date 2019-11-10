@@ -1,5 +1,6 @@
-import autos.Corsa;
-import autos.Kwid;
+import ar.edu.unahur.Banco;
+import ar.edu.unahur.Cliente;
+import ar.edu.unahur.autos.*;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

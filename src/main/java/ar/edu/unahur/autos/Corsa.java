@@ -1,4 +1,4 @@
-package autos;
+package ar.edu.unahur.autos;
 
 public class Corsa extends Auto{
 

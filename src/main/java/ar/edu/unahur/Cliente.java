@@ -1,4 +1,6 @@
-import autos.Auto;
+package ar.edu.unahur;
+
+import ar.edu.unahur.autos.*;
 
 public class Cliente {
 

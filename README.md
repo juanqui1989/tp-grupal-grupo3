@@ -2,7 +2,7 @@
 
 <div align="center"><img src="https://refactoring.guru/images/patterns/content/chain-of-responsibility/chain-of-responsibility.png" height="300" width="350"></div>
 
-## Cliente
+## ar.edu.unahur.Cliente
 Se pide modelar un cliente el cual desea hacer la compra de un auto, para ello el cliente contara con una suma de dinero la cual  le perimitira o no comprar el vehiculo deseado. 
 En caso de no contar con el dinero suficiente para comprarlo, dicho cliente podra contar con la opcio de solicitar un prestamo al banco en que se encuentra afilado.
 
@@ -10,7 +10,7 @@ En caso de no contar con el dinero suficiente para comprarlo, dicho cliente podr
 ## Rodados
 
 - **Chevrolet Corsa**. <br>
-  - La capacidad de estos autos es de 4 pasajeros, su velocidad máxima 150 km/h, y pesan 1300 kg. <br>
+  - La capacidad de estos ar.edu.unahur.autos es de 4 pasajeros, su velocidad máxima 150 km/h, y pesan 1300 kg. <br>
 
 - **Renault Kwid** que funcionan _a gas_. 
   Cada uno de ellos puede tener puesto, o no, un tanque adicional. 
@@ -19,7 +19,7 @@ En caso de no contar con el dinero suficiente para comprarlo, dicho cliente podr
    <br>
 
 
-## Banco
+## ar.edu.unahur.Banco
 
 Estamos realizando el software para un banco y uno de los puntos más importantes es saber quién puede aprobar un crédito. Por lo tanto el banco define las siguientes reglas de negocio:
 
